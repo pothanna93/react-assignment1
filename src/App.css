@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.history-app-container {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  justify-content: center;
+}
+.heading {
+  color: #2850a7;
+  font-size: 42px;
+  font-family: 500;
+  text-align: center;
+}
+.navbar {
+  background-color: #3367d6;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.history-lists {
+  background-color: #fff;
+  background-size: cover;
+  margin: 20px;
+  box-shadow: 2px;
+}
+.image-logo {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #6697ff;
+  background-color: #2850a7;
+  color: #fff;
+  padding: 15px;
+}
+.input-element {
+  padding: 15px;
+  background-color: #2850a7;
+  border: 1px solid #6697ff;
+  width: 100%;
+  color: #475569;
+  font-size: 18px;
+  font-family: 'roboto';
+  outline: none;
+  font-weight: bold;
+}
+.input-container {
+  display: flex;
+  margin-right: 30px;
+}
+.history-image {
+  margin-left: 30px;
+}
